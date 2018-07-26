@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Instance Settings" language="en" table="x_82093_jira_sync_instance_settings">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Instance Settings</label>
+            <language>en</language>
+            <name>x_82093_jira_sync_instance_settings</name>
+            <plural>Instance Settings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-26 13:46:04</sys_created_on>
+            <sys_id>f3cdbf99db231300603752b0cf9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Instance Settings</sys_name>
+            <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
+            <sys_update_name>sys_documentation_x_82093_jira_sync_instance_settings__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-26 13:46:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
