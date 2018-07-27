@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sys_journal_field</collection>
+        <condition>gs.getProperty('x_82093_jira_sync.jira-integration-active')==true</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Send Comment to JIRA</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	var relTable= new GlideRecord('task');
+	relTable.get(current.element_id);
+			
+	if(relTable.x_82093_jira_sync_sync_to_jira==true && !relTable.x_82093_jira_sync_jira_key.nil()){
+		var tableName=relTable.getRecordClassName();
+		
+		var j = new x_82093_jira_sync.JiraSync();
+		
+		var gr = new GlideRecord(tableName);
+		gr.get(current.element_id);
+		if( gr.isValid() ){
+							
+				var commentIncident = {};
+					commentIncident.body = ""+current.value;
+			
+			var instance = new GlideRecord("x_82093_jira_sync_instance_settings");
+			instance.get(relTable.x_82093_jira_sync_jira_project.instance);
+					j.addComment(commentIncident, ""+relTable.x_rens_regolsink_ji_jira_key,"issue",gr.sys_id,instance);
+				}
+			
+		}
+		
+	})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-27 15:27:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>816e55b9db631300603752b0cf961989</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Send Comment to JIRA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
+        <sys_update_name>sys_script_816e55b9db631300603752b0cf961989</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-27 19:08:29</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=816e55b9db631300603752b0cf961989"/>
+</record_update>

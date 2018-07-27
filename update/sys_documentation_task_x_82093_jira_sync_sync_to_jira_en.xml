@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_82093_jira_sync_sync_to_jira" label="Sync to Jira" language="en" table="task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_82093_jira_sync_sync_to_jira</element>
+            <help/>
+            <hint/>
+            <label>Sync to Jira</label>
+            <language>en</language>
+            <name>task</name>
+            <plural>Sync to Jiras</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-27 17:51:12</sys_created_on>
+            <sys_id>e88ff9bddba31300603752b0cf9619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sync to Jira</sys_name>
+            <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
+            <sys_update_name>sys_documentation_task_x_82093_jira_sync_sync_to_jira_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-27 17:51:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

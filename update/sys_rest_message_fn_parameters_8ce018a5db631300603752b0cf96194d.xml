@@ -7,15 +7,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-26 15:09:22</sys_created_on>
         <sys_id>8ce018a5db631300603752b0cf96194d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>base_url</sys_name>
         <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
         <sys_update_name>sys_rest_message_fn_parameters_8ce018a5db631300603752b0cf96194d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-26 15:09:22</sys_updated_on>
+        <sys_updated_on>2018-07-27 14:34:55</sys_updated_on>
         <type>string</type>
-        <value/>
+        <value>https://jira-dev.amway.com:8443</value>
     </sys_rest_message_fn_parameters>
 </record_update>
