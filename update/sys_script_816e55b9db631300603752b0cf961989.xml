@@ -6,14 +6,14 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection>sys_journal_field</collection>
-        <condition>gs.getProperty('x_82093_jira_sync.jira-integration-active')==true</condition>
+        <condition>gs.getProperty('x_82093_jira_sync.jira-integration-active')=="true"</condition>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
@@ -32,7 +32,7 @@
 	
 	var relTable= new GlideRecord('task');
 	relTable.get(current.element_id);
-			
+	
 	if(relTable.x_82093_jira_sync_sync_to_jira==true && !relTable.x_82093_jira_sync_jira_key.nil()){
 		var tableName=relTable.getRecordClassName();
 		
@@ -42,13 +42,17 @@
 		gr.get(current.element_id);
 		if( gr.isValid() ){
 							
-				var commentIncident = {};
-					commentIncident.body = ""+current.value;
+			var commentIncident = {};
+				commentIncident.body = current.value;
 			
 			var instance = new GlideRecord("x_82093_jira_sync_instance_settings");
 			instance.get(relTable.x_82093_jira_sync_jira_project.instance);
-					j.addComment(commentIncident, ""+relTable.x_rens_regolsink_ji_jira_key,"issue",gr.sys_id,instance);
-				}
+			
+			var comm = j.addComment(commentIncident, relTable.x_82093_jira_sync_jira_key,"issue",gr.sys_id,instance);
+			
+			gs.addInfoMessage("Status: " +comm);
+			gs.addInfoMessage(commentIncident.body);
+		}
 			
 		}
 		
@@ -59,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>816e55b9db631300603752b0cf961989</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Send Comment to JIRA</sys_name>
         <sys_overrides/>
         <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
@@ -67,9 +71,9 @@
         <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
         <sys_update_name>sys_script_816e55b9db631300603752b0cf961989</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-27 19:08:29</sys_updated_on>
+        <sys_updated_on>2018-07-30 19:23:12</sys_updated_on>
         <template/>
-        <when>async</when>
+        <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=816e55b9db631300603752b0cf961989"/>
 </record_update>
