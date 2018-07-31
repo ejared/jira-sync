@@ -57,13 +57,13 @@ JiraSync.prototype = {
         // Updated by Joe Prewitt 07/19/2018
 
         var json = new global.JSON();
-        var body = json.encode(comment);
+        //var body = json.encode(comment);
         var r = new sn_ws.RESTMessageV2('Jira Sync REST', 'postComment');
         r.setAuthenticationProfile('basic',instance.authentication_profile);
         if(instance.midserver){
             r.setMIDServer(instance.midserver.name);
         }
-        r.setStringParameterNoEscape('commentBody', body);
+        r.setStringParameterNoEscape('commentBody', json.encode(comment));
         r.setStringParameter('base_url', instance.base_url);
         r.setStringParameter("resourceName", resourceName);
         r.setStringParameter("id", key);
@@ -86,7 +86,7 @@ JiraSync.prototype = {
             jComments.insert();
         }
 		
-		return status + " Body: "+body+" "+commResponseBody;
+		return status + " Body: "+comment+" "+commResponseBody;
 
 
     },
@@ -98,13 +98,13 @@ JiraSync.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-26 17:21:31</sys_created_on>
         <sys_id>a73d2865dba31300603752b0cf9619a8</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>JiraSync</sys_name>
         <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
         <sys_update_name>sys_script_include_a73d2865dba31300603752b0cf9619a8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-30 19:01:14</sys_updated_on>
+        <sys_updated_on>2018-07-31 12:10:05</sys_updated_on>
     </sys_script_include>
 </record_update>
