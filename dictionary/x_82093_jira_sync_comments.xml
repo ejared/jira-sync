@@ -3,7 +3,6 @@
     <element label="Comments" max_length="40" name="x_82093_jira_sync_comments" type="collection">
         <element label="Comment Body" max_length="1000" name="comment_body" type="string"/>
         <element label="Comment ID" max_length="250" name="comment_id" type="string"/>
-        <element label="Module" max_length="250" name="module" type="string"/>
         <element label="Parent Record" max_length="250" name="parend_record" type="string"/>
         <element label="Record Key" max_length="250" name="record_key" type="string"/>
         <element choice="3" label="Source" max_length="40" name="source" type="choice">
