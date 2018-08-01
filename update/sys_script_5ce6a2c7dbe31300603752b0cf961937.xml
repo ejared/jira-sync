@@ -19,7 +19,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Insert Journal Entry from JIRA</name>
+        <name>Get Comment from JIRA</name>
         <order>200</order>
         <priority>100</priority>
         <rest_method/>
@@ -30,8 +30,8 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	
-	var journalEntry="** Update from JIRA to ServiceNow **"+"\n"+current.comment_body;
-	if(current.u_source=="jira"){
+	var journalEntry="** Update from Jira **"+"\n"+current.comment_body;
+	if(current.source=="jira"){
 		var recTask;
 		recTask=new GlideRecord('task');
 		recTask.addQuery('x_82093_jira_sync_jira_key',current.record_key);
@@ -50,17 +50,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5ce6a2c7dbe31300603752b0cf961937</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Insert Journal Entry from JIRA</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Get Comment from JIRA</sys_name>
         <sys_overrides/>
         <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
         <sys_update_name>sys_script_5ce6a2c7dbe31300603752b0cf961937</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-31 19:54:58</sys_updated_on>
+        <sys_updated_on>2018-08-01 14:40:08</sys_updated_on>
         <template/>
-        <when>async</when>
+        <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=5ce6a2c7dbe31300603752b0cf961937"/>
 </record_update>
