@@ -4,7 +4,6 @@
         <element label="Authentication Profile" mandatory="true" max_length="32" name="authentication_profile" reference="sys_auth_profile_basic" type="reference"/>
         <element display="true" hint="Format: https://myinstance.jira.com" label="Base URL" mandatory="true" max_length="250" name="base_url" type="string"/>
         <element label="MidServer" max_length="32" name="midserver" reference="ecc_agent" type="reference"/>
-        <element label="Module" mandatory="true" max_length="250" name="module" type="string"/>
         <index name="index">
             <element name="midserver"/>
         </index>
