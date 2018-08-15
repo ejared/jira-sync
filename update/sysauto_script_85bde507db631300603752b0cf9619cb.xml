@@ -47,8 +47,7 @@ else {
                         jComments.comment_id = rec.comments[i].id;
                         jComments.comment_body = rec.comments[i].body;
                         jComments.record_key = tblRecord.x_82093_jira_sync_jira_key;
-                        jComments.parend_record = tblRecord.sys_id;
-                        //jComments.module = instance.module;
+                        jComments.parend_record = tblRecord.sys_id;                        
                         jComments.source = "jira";
                         jComments.insert();
                     }
@@ -66,14 +65,14 @@ else {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-31 14:01:31</sys_created_on>
         <sys_id>85bde507db631300603752b0cf9619cb</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Get Jira Comments</sys_name>
         <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
         <sys_update_name>sysauto_script_85bde507db631300603752b0cf9619cb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-08 14:08:54</sys_updated_on>
+        <sys_updated_on>2018-08-15 14:27:48</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>
