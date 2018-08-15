@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>base_url</name>
+        <rest_message_function display_value="getStatus">19a73893db731300603752b0cf961983</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-13 14:44:46</sys_created_on>
+        <sys_id>cfd7fc13db331300603752b0cf9619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>base_url</sys_name>
+        <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_cfd7fc13db331300603752b0cf9619c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-13 14:44:46</sys_updated_on>
+        <type>string</type>
+        <value/>
+    </sys_rest_message_fn_parameters>
+</record_update>

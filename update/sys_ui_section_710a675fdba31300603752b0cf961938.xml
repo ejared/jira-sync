@@ -5,13 +5,13 @@
             <element>x_82093_jira_sync_sync_to_jira</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-01 17:27:30</sys_created_on>
-            <sys_id>b10a675fdba31300603752b0cf961944</sys_id>
+            <sys_created_on>2018-08-13 15:10:42</sys_created_on>
+            <sys_id>cbcdbcd7db731300603752b0cf96192c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Jira Integration" display_value="Jira Integration" name="task" sys_domain="global" view="Default view">710a675fdba31300603752b0cf961938</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-01 17:27:30</sys_updated_on>
+            <sys_updated_on>2018-08-13 15:10:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-01 17:27:30</sys_created_on>
-            <sys_id>b90a675fdba31300603752b0cf961944</sys_id>
+            <sys_created_on>2018-08-13 15:10:42</sys_created_on>
+            <sys_id>c3cdbcd7db731300603752b0cf96192d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Jira Integration" display_value="Jira Integration" name="task" sys_domain="global" view="Default view">710a675fdba31300603752b0cf961938</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-01 17:27:30</sys_updated_on>
+            <sys_updated_on>2018-08-13 15:10:42</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>x_82093_jira_sync_jira_project</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-01 17:27:30</sys_created_on>
-            <sys_id>3d0a675fdba31300603752b0cf961944</sys_id>
+            <sys_created_on>2018-08-13 15:10:42</sys_created_on>
+            <sys_id>47cdbcd7db731300603752b0cf96192d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Jira Integration" display_value="Jira Integration" name="task" sys_domain="global" view="Default view">710a675fdba31300603752b0cf961938</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-01 17:27:30</sys_updated_on>
+            <sys_updated_on>2018-08-13 15:10:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,27 @@
             <element>x_82093_jira_sync_jira_key</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-01 17:27:30</sys_created_on>
-            <sys_id>bd0a675fdba31300603752b0cf961944</sys_id>
+            <sys_created_on>2018-08-13 15:10:42</sys_created_on>
+            <sys_id>c7cdbcd7db731300603752b0cf96192d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Jira Integration" display_value="Jira Integration" name="task" sys_domain="global" view="Default view">710a675fdba31300603752b0cf961938</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-01 17:27:30</sys_updated_on>
+            <sys_updated_on>2018-08-13 15:10:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_82093_jira_sync_jira_status</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-13 15:10:42</sys_created_on>
+            <sys_id>4bcdbcd7db731300603752b0cf96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Jira Integration" display_value="Jira Integration" name="task" sys_domain="global" view="Default view">710a675fdba31300603752b0cf961938</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-13 15:10:42</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

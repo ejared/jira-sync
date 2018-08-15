@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Jira Status" max_length="40" name="x_82093_jira_sync_jira_status" type="collection">
+        <element label="Instance" max_length="32" name="instance" reference="x_82093_jira_sync_instance_settings" type="reference"/>
+        <element label="Status ID" max_length="50" name="status_id" type="string"/>
+        <element display="true" label="Status Name" max_length="250" name="status_name" type="string"/>
+        <index name="index">
+            <element name="instance"/>
+        </index>
+    </element>
+</database>

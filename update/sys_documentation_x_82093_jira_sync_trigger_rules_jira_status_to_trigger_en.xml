@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="jira_status_to_trigger" label="Jira Status to Trigger" language="en" table="x_82093_jira_sync_trigger_rules">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>jira_status_to_trigger</element>
+            <help/>
+            <hint/>
+            <label>Jira Status to Trigger</label>
+            <language>en</language>
+            <name>x_82093_jira_sync_trigger_rules</name>
+            <plural>Jira Status to Triggers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-13 17:48:25</sys_created_on>
+            <sys_id>49e1a1dfdbb31300603752b0cf9619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Jira Status to Trigger</sys_name>
+            <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
+            <sys_update_name>sys_documentation_x_82093_jira_sync_trigger_rules_jira_status_to_trigger_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-13 17:48:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
