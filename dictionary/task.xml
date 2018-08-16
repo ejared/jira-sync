@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="reference_index_include=active,all_tables.live_feed=true,all_tables.text_index_translations=true,all_tables.detail_row=short_description,all_tables.display_color=priority,extension_model=hierarchy,hasListeners=true,largeTable=true" label="Task" max_length="40" name="task" sizeclass="4882" text_index="true" type="collection">
+    <element attributes="reference_index_include=active,all_tables.live_feed=true,all_tables.text_index_translations=true,all_tables.detail_row=short_description,all_tables.display_color=priority,extension_model=hierarchy,hasListeners=true,largeTable=true" label="Task" max_length="40" name="task" sizeclass="4901" text_index="true" type="collection">
         <element label="Jira Key" max_length="250" name="x_82093_jira_sync_jira_key" type="string"/>
         <element label="Jira Project" max_length="32" name="x_82093_jira_sync_jira_project" reference="x_82093_jira_sync_jira_projects" type="reference"/>
         <element label="Jira Status" max_length="32" name="x_82093_jira_sync_jira_status" reference="x_82093_jira_sync_jira_status" type="reference"/>
