@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="6790442ddb231300603752b0cf9619a7" sys_domain="global" table="x_82093_jira_sync_instance_settings" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>base_url</element>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Instance Settings" max_length="40" name="x_82093_jira_sync_instance_settings" type="collection">
         <element label="Authentication Profile" mandatory="true" max_length="32" name="authentication_profile" reference="sys_auth_profile_basic" type="reference"/>
         <element display="true" hint="Format: https://myinstance.jira.com" label="Base URL" mandatory="true" max_length="250" name="base_url" type="string"/>

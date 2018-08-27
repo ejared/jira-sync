@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_auth_profile">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile">
     <sys_auth_profile action="INSERT_OR_UPDATE">
         <name>Jira: EIA test</name>
         <sys_class_name>sys_auth_profile</sys_class_name>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Trigger Rules" max_length="40" name="x_82093_jira_sync_trigger_rules" type="collection">
         <element label="Jira Project" max_length="32" name="jira_project" reference="x_82093_jira_sync_jira_projects" type="reference"/>
         <element label="Jira Status to Trigger" max_length="32" name="jira_status_to_trigger" reference="x_82093_jira_sync_jira_status" type="reference"/>

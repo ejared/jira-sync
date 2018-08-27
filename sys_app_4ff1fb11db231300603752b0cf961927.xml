@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_app">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
         <enforce_license>log</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
+        <license_category>none</license_category>
         <license_model>none</license_model>
         <logo/>
         <menu display_value="Jira Sync">9e797b15db231300603752b0cf9619e3</menu>
@@ -43,6 +43,7 @@
         <image_width>225</image_width>
         <size_bytes>4054</size_bytes>
         <size_compressed>4077</size_compressed>
+        <state/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-26 13:36:25</sys_created_on>
         <sys_id>569b7b59db231300603752b0cf9619f8</sys_id>

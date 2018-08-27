@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Jira Projects" max_length="40" name="x_82093_jira_sync_jira_projects" type="collection">
         <element label="Instance" max_length="32" name="instance" reference="x_82093_jira_sync_instance_settings" type="reference"/>
         <element label="Key" max_length="250" name="key" type="string"/>
