@@ -1,5 +1,5 @@
 # Jira Sync Module
-<a href='https://github.com/justjoe22/jira-sync/wiki/How-to-use-the-Jira-Sync-module#using-jira-sync-as-an-itil-user-those-in-it-have-an-itil-role'>How To</a>
+<a href='https://github.com/justjoe22/jira-sync/wiki/How-to-use-the-Jira-Sync-module#using-jira-sync-as-an-itil-user-those-in-it-have-an-itil-role'>How To Use Jira Sync</a>
 
 **Do not edit the files in this repository outside of an instance of ServiceNow.**
 
