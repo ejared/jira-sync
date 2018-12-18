@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="clone_data_exclude">
+    <clone_data_exclude action="INSERT_OR_UPDATE">
+        <name>x_82093_jira_sync_instance_settings</name>
+        <sys_class_name>clone_data_exclude</sys_class_name>
+        <sys_created_by>aiuju39</sys_created_by>
+        <sys_created_on>2018-08-16 12:05:11</sys_created_on>
+        <sys_id>6910f700db4423c4dd4541deaa96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_82093_jira_sync_instance_settings</sys_name>
+        <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
+        <sys_update_name>clone_data_exclude_6910f700db4423c4dd4541deaa96197d</sys_update_name>
+        <sys_updated_by>aiuju39</sys_updated_by>
+        <sys_updated_on>2018-08-16 12:05:11</sys_updated_on>
+    </clone_data_exclude>
+</record_update>

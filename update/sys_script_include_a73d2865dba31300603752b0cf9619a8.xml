@@ -27,7 +27,7 @@ JiraSync.prototype = {
                     projReq.setMIDServer(instance.midserver.name);
                 }
 
-                var projResponse= projReq.execute();
+                var projResponse= projReq.executeAsync();
 
                 var retStatus=projResponse.getStatusCode();
                 var projResponseBody=projResponse.getBody();
@@ -67,7 +67,7 @@ JiraSync.prototype = {
                     status.setMIDServer(instance.midserver.name);
                 }
 
-                var statusResponse= status.execute();
+                var statusResponse= status.executeAsync();
 
                 var responseStatus=statusResponse.getStatusCode();
                 var statusResponseBody=statusResponse.getBody();
@@ -107,7 +107,7 @@ JiraSync.prototype = {
         r.setStringParameter('base_url', instance.base_url);
         r.setStringParameter("resourceName", resourceName);
         r.setStringParameter("id", key);
-        var resBody = r.execute();
+        var resBody = r.executeAsync();
 
         var commResponseBody = resBody.getBody();
 		var status = resBody.getStatusCode();
@@ -140,7 +140,7 @@ JiraSync.prototype = {
         }
         r.setStringParameter('base_url', instance.base_url);
         r.setStringParameter("issueKey", key);
-        var response = r.execute();
+        var response = r.executeAsync();
         var body = response.getBody();
         var returnParse = JSON.parse(body);
 
@@ -158,7 +158,7 @@ JiraSync.prototype = {
         r.setStringParameter('base_url', instance.base_url);
         r.setStringParameter('issueKey', key);
 
-        var response = r.execute();
+        var response = r.executeAsync();
         var body = response.getBody();
         var returnParse = JSON.parse(body);
 
@@ -172,13 +172,13 @@ JiraSync.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-26 17:21:31</sys_created_on>
         <sys_id>a73d2865dba31300603752b0cf9619a8</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>JiraSync</sys_name>
         <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
         <sys_update_name>sys_script_include_a73d2865dba31300603752b0cf9619a8</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-27 16:32:48</sys_updated_on>
+        <sys_updated_by>aiuju39</sys_updated_by>
+        <sys_updated_on>2018-11-13 14:34:23</sys_updated_on>
     </sys_script_include>
 </record_update>

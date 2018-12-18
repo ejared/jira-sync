@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="350a675fdba31300603752b0cf961939" sys_domain="global" table="task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>aiuju39</sys_created_by>
+            <sys_created_on>2018-08-15 19:55:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d329404dbc86780ac4222e6489619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="task" name="task" sys_domain="global" view="Default view">350a675fdba31300603752b0cf961939</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="task" sys_domain="global" view="Default view">a08754b4c611228701f7be7b66a6e8a5</sys_ui_section>
+            <sys_updated_by>aiuju39</sys_updated_by>
+            <sys_updated_on>2018-08-15 19:55:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>aiuju39</sys_created_by>
+            <sys_created_on>2018-08-15 19:55:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39329404dbc86780ac4222e6489619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="task" name="task" sys_domain="global" view="Default view">350a675fdba31300603752b0cf961939</sys_ui_form>
+            <sys_ui_section caption="Jira Integration" display_value="Jira Integration" name="task" sys_domain="global" view="Default view">710a675fdba31300603752b0cf961938</sys_ui_section>
+            <sys_updated_by>aiuju39</sys_updated_by>
+            <sys_updated_on>2018-08-15 19:55:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>aiuju39</sys_created_by>
+            <sys_created_on>2018-08-15 19:55:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>350a675fdba31300603752b0cf961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="System (apps/system_ui)" source="apps/system_ui">85766701dd2003003399d83d70be0278</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
+            <sys_update_name>sys_ui_form_sections_350a675fdba31300603752b0cf961939</sys_update_name>
+            <sys_updated_by>aiuju39</sys_updated_by>
+            <sys_updated_on>2018-08-15 19:55:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -4,7 +4,7 @@
         <element label="Comment ID" max_length="250" name="comment_id" type="string"/>
         <element label="Parent Record" max_length="250" name="parend_record" type="string"/>
         <element label="Record Key" max_length="250" name="record_key" type="string"/>
-        <element choice="3" label="Source" max_length="40" name="source" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Source" max_length="40" name="source" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Jira" sequence="100" value="jira"/>
                 <element inactive_on_update="false" label="ServiceNow" sequence="200" value="servicenow"/>

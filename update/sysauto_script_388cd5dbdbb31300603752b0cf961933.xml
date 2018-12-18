@@ -26,6 +26,8 @@ while(instance.next()){
 	
 	tblRecord=new GlideRecord('task');	
 	tblRecord.addQuery('x_82093_jira_sync_jira_project.instance',instance.sys_id);
+	tblRecord.addNotNullQuery('x_82093_jira_sync_jira_key');
+	tblRecord.addQuery('state','!=',6);
 	tblRecord.query();
 	
 	while(tblRecord.next()){
@@ -40,8 +42,10 @@ while(instance.next()){
 			getStatus.query();
 			
 			if(getStatus.next()){
-				tblRecord.x_82093_jira_sync_jira_status = getStatus.sys_id;
-				tblRecord.update();
+				var task = new GlideRecord('task');
+				task.get('sys_id',tblRecord.sys_id);
+				task.x_82093_jira_sync_jira_status = getStatus.sys_id;
+				task.update();
 			}
 		}
 		
@@ -54,14 +58,14 @@ while(instance.next()){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 17:28:00</sys_created_on>
         <sys_id>388cd5dbdbb31300603752b0cf961933</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Update Jira Status</sys_name>
         <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
         <sys_update_name>sysauto_script_388cd5dbdbb31300603752b0cf961933</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-28 13:25:43</sys_updated_on>
+        <sys_updated_by>aiuju39</sys_updated_by>
+        <sys_updated_on>2018-12-12 12:43:29</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>
