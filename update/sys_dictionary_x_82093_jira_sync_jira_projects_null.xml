@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-26 14:12:24</sys_created_on>
-        <sys_id>65d340eddb231300603752b0cf9619e5</sys_id>
+        <sys_id>a18e858ddbf223001c0aa455ca96193e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_82093_jira_sync_jira_projects</sys_name>
         <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
         <sys_policy/>
         <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
         <sys_update_name>sys_dictionary_x_82093_jira_sync_jira_projects_NULL</sys_update_name>
-        <sys_updated_by>aiuju39</sys_updated_by>
-        <sys_updated_on>2018-10-31 18:18:04</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-01-02 19:46:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
