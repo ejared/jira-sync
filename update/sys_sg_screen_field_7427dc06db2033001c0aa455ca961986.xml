@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>x_82093_jira_sync_jira_status</data_item_field_name>
+        <hidden>false</hidden>
+        <order>40</order>
+        <screen display_value="Details">0cc393fedb0433001c0aa455ca961902</screen>
+        <screen_data_item_table>task</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-02 18:07:39</sys_created_on>
+        <sys_id>7427dc06db2033001c0aa455ca961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_82093_jira_sync_jira_status</sys_name>
+        <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
+        <sys_update_name>sys_sg_screen_field_7427dc06db2033001c0aa455ca961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-02 18:07:39</sys_updated_on>
+        <type>auto</type>
+    </sys_sg_screen_field>
+</record_update>

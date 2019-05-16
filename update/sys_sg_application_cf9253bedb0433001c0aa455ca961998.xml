@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_application">
+    <sys_sg_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>true</available_offline>
+        <default>false</default>
+        <description>Sync your tasks from ServiceNow with Jira</description>
+        <icon display_value="handshake">479217bedb0433001c0aa455ca96191c</icon>
+        <name>Jira Sync</name>
+        <order/>
+        <roles/>
+        <sys_class_name>sys_sg_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 19:10:45</sys_created_on>
+        <sys_id>cf9253bedb0433001c0aa455ca961998</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Jira Sync</sys_name>
+        <sys_package display_value="Jira Sync" source="x_82093_jira_sync">4ff1fb11db231300603752b0cf961927</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Jira Sync">4ff1fb11db231300603752b0cf961927</sys_scope>
+        <sys_update_name>sys_sg_application_cf9253bedb0433001c0aa455ca961998</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-11 19:11:44</sys_updated_on>
+    </sys_sg_application>
+</record_update>
